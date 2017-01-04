@@ -1,0 +1,484 @@
+@import url("http://weloveiconfonts.com/api/?family=entypo");
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: "entypo", sans-serif; }
+
+.hero .pics {
+  width: 100%;
+  height: 1000px; }
+
+.dark {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 1010px;
+  z-index: 1;
+  background-color: rgba(10, 10, 10, 0.5);
+  opacity: 0.4; }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center; }
+
+#menubtn {
+  display: none;
+  position: absolute;
+  top: 2%;
+  right: 25px;
+  font-size: 2.5em;
+  cursor: pointer;
+  color: white;
+  z-index: 501; }
+
+/*Text inside side bar */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 2em;
+  color: #818181;
+  display: block;
+  transition: 0.3s; }
+
+/*hover color over links */
+.sidenav a:hover, .offcanvas a:focus {
+  color: #f1f1f1; }
+
+/*X close button */
+.closebtnNav {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 75px; }
+
+.under {
+  position: relative;
+  display: inline-block; }
+
+.under:before {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
+
+.under:hover:before {
+  width: 100%; }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  left: 25%;
+  z-index: 2;
+  margin-top: 2%; }
+nav li {
+  display: inline;
+  padding: 50px;
+  text-align: center;
+  font-size: 1.5em;
+  z-index: 2; }
+  nav li a {
+    color: white;
+    text-decoration: none; }
+  nav li a:hover {
+    color: orange; }
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 0; }
+
+h1.title {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  position: absolute;
+  top: 30%;
+  font-size: 6em;
+  text-align: center;
+  width: 95%;
+  height: 0;
+  z-index: 2; }
+
+h2 {
+  text-align: center;
+  font-size: 3em;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 0;
+  color: #CDBB79; }
+
+h3 {
+  text-align: center;
+  font-size: 3em;
+  font-family: "Open Sans", sans-serif;
+  color: #CDBB79; }
+
+.category {
+  height: auto;
+  max-width: 100%;
+  width: auto;
+  text-align: center;
+  padding-bottom: 3%; }
+  .category img {
+    height: 400px;
+    max-width: 100%;
+    width: auto;
+    text-align: center; }
+
+.caption {
+  text-align: center;
+  width: 100%;
+  height: 0;
+  font-size: 3em;
+  color: white;
+  position: absolute;
+  top: 50%;
+  z-index: 1; }
+
+.caption:hover {
+  text-decoration: underline;
+  transition: 3s; }
+
+#cat1, #cat2, #cat3, #cat4 {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  max-width: 24%; }
+
+.bottomnav {
+  text-align: center;
+  list-style-type: none;
+  margin: 0; }
+  .bottomnav li {
+    font-color: black;
+    font-size: 1.5em; }
+  .bottomnav a {
+    color: white;
+    text-decoration: none; }
+  .bottomnav a:hover {
+    color: orange; }
+
+footer {
+  padding: 2% 2% 2% 2%;
+  background-color: #F2F2F2; }
+
+.foot {
+  padding: 2% 2% 2% 2%;
+  background-color: #2D8AA8; }
+
+.bottom {
+  margin-top: 2%;
+  text-align: center; }
+
+.bottomnav li a {
+  color: #B7695C; }
+
+.bottomnavHome li a {
+  color: white; }
+
+.bottomnavHome {
+  text-align: center;
+  list-style-type: none;
+  margin: 0; }
+  .bottomnavHome li {
+    font-color: black;
+    font-size: 1.5em; }
+  .bottomnavHome a {
+    color: white;
+    text-decoration: none; }
+  .bottomnavHome a:hover {
+    color: orange; }
+
+.bottomicon {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: 0 10px;
+  line-height: 75px;
+  font-family: Entypo;
+  font-size: 4em;
+  text-align: center;
+  color: #bbb;
+  border-radius: 70%;
+  background: white;
+  overflow: hidden;
+  transition: color 0.3s; }
+
+.bottomicon:hover {
+  cursor: pointer;
+  color: midnightblue; }
+
+.locInfo {
+  text-align: center;
+  width: cover;
+  height: 450px; }
+  .locInfo li {
+    display: inline-block;
+    margin: 30px;
+    font-size: 1.5em;
+    color: black; }
+
+#city {
+  font-size: 3em;
+  text-align: center;
+  list-style-type: none; }
+
+.icon img {
+  width: 150px; }
+
+.pics {
+  width: 100%;
+  height: 800px; }
+
+.attr1 {
+  float: right;
+  position: relative;
+  background-color: #06425C; }
+  .attr1 img {
+    width: 49%; }
+
+.attr2.attr1 {
+  float: right;
+  position: relative;
+  background-color: #06425C; }
+  .attr2.attr1 img {
+    width: 49%; }
+
+.attr2 {
+  float: right;
+  position: relative;
+  background-color: #06425C; }
+  .attr2 img {
+    width: 51%; }
+
+span.textRight {
+  padding: 2%;
+  width: 45%;
+  float: right;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  color: #FEF6EB;
+  position: relative; }
+
+span.textLeft {
+  padding: 2%;
+  width: 45%;
+  float: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  color: #FEF6EB;
+  position: relative; }
+
+p.priceText {
+  text-align: center; }
+
+.tag {
+  background-color: lightblue;
+  color: white;
+  padding: 5px 10px;
+  font: normal 1em sans-serif;
+  position: relative;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.4s; }
+
+.container {
+  padding: 0 15px 0 15px;
+  float: right;
+  position: relative;
+  background-color: #06425C; }
+  .container img {
+    width: 51%; }
+
+span.textRight {
+  padding: 2%;
+  width: 45%;
+  float: right;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  color: #FEF6EB;
+  position: relative; }
+
+span.textLeft {
+  padding: 2%;
+  width: 45%;
+  float: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  color: #FEF6EB;
+  position: relative; }
+
+.holder {
+  padding: 0 5% 0 5%; }
+
+.modalBox {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: opacity 300ms ease-in;
+  -moz-transition: opacity 300ms ease-in;
+  transition: opacity 300ms ease-in;
+  pointer-events: none; }
+
+.modalBox:target {
+  opacity: 1;
+  pointer-events: auto; }
+
+.modalBox > div {
+  width: 500px;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #F0FFFF; }
+
+.closebtn {
+  background: #606061;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000; }
+
+.closebtn:hover {
+  background: #00d9ff; }
+
+.moreInfo, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px 5px 5px 5px;
+  font-family: arial, sans-serif;
+  font-size: 1.2em;
+  text-align: center; }
+
+@media screen and (max-width: 1000px) {
+  h2 {
+    font-size: 2em; }
+
+  span.textRight {
+    font-size: 1em; }
+
+  span.textLeft {
+    font-size: 1em; }
+
+  nav ul {
+    left: 15%; }
+  nav li {
+    font-size: 1.2em; }
+
+  .attr1 {
+    padding: 5%; }
+    .attr1 span.textRight {
+      width: 100%; }
+    .attr1 img {
+      width: 100%; }
+
+  .attr2 {
+    padding: 5%; }
+    .attr2 span.textLeft {
+      width: 100%; }
+    .attr2 img {
+      width: 100%; } }
+@media screen and (max-width: 900px) {
+  #menubtn {
+    display: block;
+    font-size: 1.5em; }
+
+  nav {
+    display: none; }
+
+  .caption {
+    font-size: 2.5em; }
+
+  #cat1, #cat2, #cat3, #cat4 {
+    display: block;
+    max-width: 90%;
+    text-align: center; }
+
+  .hero .pics {
+    height: 800px; }
+
+  #menubtn {
+    font-size: 2em; }
+
+  .dark {
+    height: 800px; }
+
+  h1.title {
+    top: 10%; } }
+@media screen and (max-width: 770px) {
+  #cat1, #cat2, #cat3, #cat4 {
+    display: block;
+    max-width: 100%; }
+
+  .dark {
+    height: 500px; }
+
+  h1.title {
+    font-size: 3.5em;
+    top: 15%; }
+
+  #menubtn {
+    display: block;
+    font-size: 2em; }
+
+  nav {
+    display: none; }
+
+  .bottomicon {
+    height: 60px;
+    width: 60px; }
+
+  .icon img {
+    display: none; }
+
+  .hero .pics {
+    height: 500px; }
+
+  h2 {
+    font-size: 2em; }
+
+  span.textRight {
+    font-size: 0.9em; }
+
+  span.textLeft {
+    font-size: 0.9em; }
+
+  .modalBox > div {
+    width: 200px; }
+
+  .moreInfo, td {
+    font-size: 1em; } }
+
+/*# sourceMappingURL=chicago.css.map */
