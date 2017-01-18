@@ -1,18 +1,19 @@
 @import url("http://weloveiconfonts.com/api/?family=entypo");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 /* entypo */
 [class*="entypo-"]:before {
   font-family: "entypo", sans-serif; }
 
 .hero .pics {
   width: 100%;
-  height: 1000px; }
+  height: 100vh; }
 
 .dark {
   position: absolute;
   left: 0px;
   top: 0px;
   width: 100%;
-  height: 1010px;
+  height: 100vh;
   z-index: 1;
   background-color: rgba(10, 10, 10, 0.5);
   opacity: 0.4; }
@@ -127,7 +128,8 @@ h3 {
   text-align: center;
   font-size: 3em;
   font-family: "Open Sans", sans-serif;
-  color: #CDBB79; }
+  color: #CDBB79;
+  margin-bottom: 50px; }
 
 .category {
   height: auto;
@@ -267,7 +269,7 @@ footer {
   .attr2 img {
     width: 51%; }
 
-span.textRight {
+.textRight {
   padding: 2%;
   width: 45%;
   float: right;
@@ -276,7 +278,10 @@ span.textRight {
   color: #FEF6EB;
   position: relative; }
 
-span.textLeft {
+span {
+  text-indent: 50px; }
+
+.textLeft {
   padding: 2%;
   width: 45%;
   float: left;
@@ -386,10 +391,10 @@ span.textLeft {
   h2 {
     font-size: 2em; }
 
-  span.textRight {
+  .textRight {
     font-size: 1em; }
 
-  span.textLeft {
+  .textLeft {
     font-size: 1em; }
 
   nav ul {
@@ -399,14 +404,14 @@ span.textLeft {
 
   .attr1 {
     padding: 5%; }
-    .attr1 span.textRight {
+    .attr1 .textRight {
       width: 100%; }
     .attr1 img {
       width: 100%; }
 
   .attr2 {
     padding: 5%; }
-    .attr2 span.textLeft {
+    .attr2 .textLeft {
       width: 100%; }
     .attr2 img {
       width: 100%; } }
@@ -426,9 +431,6 @@ span.textLeft {
     max-width: 90%;
     text-align: center; }
 
-  .hero .pics {
-    height: 800px; }
-
   #menubtn {
     font-size: 2em; }
 
@@ -443,7 +445,7 @@ span.textLeft {
     max-width: 100%; }
 
   .dark {
-    height: 500px; }
+    height: 450px; }
 
   h1.title {
     font-size: 3.5em;
@@ -457,22 +459,22 @@ span.textLeft {
     display: none; }
 
   .bottomicon {
-    height: 60px;
-    width: 60px; }
+    height: 70px;
+    width: 70px; }
 
   .icon img {
     display: none; }
 
   .hero .pics {
-    height: 500px; }
+    height: 450px; }
 
   h2 {
     font-size: 2em; }
 
-  span.textRight {
+  .textRight {
     font-size: 0.9em; }
 
-  span.textLeft {
+  .textLeft {
     font-size: 0.9em; }
 
   .modalBox > div {
