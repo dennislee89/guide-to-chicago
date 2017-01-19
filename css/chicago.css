@@ -115,7 +115,8 @@ h1.title {
   text-align: center;
   width: 95%;
   height: 0;
-  z-index: 2; }
+  z-index: 2;
+  font-weight: bold; }
 
 h2 {
   text-align: center;
@@ -226,23 +227,65 @@ footer {
   cursor: pointer;
   color: midnightblue; }
 
-.locInfo {
-  text-align: center;
-  width: cover;
-  height: 450px; }
-  .locInfo li {
-    display: inline-block;
-    margin: 30px;
-    font-size: 1.5em;
-    color: black; }
+caption {
+  font-size: 2em;
+  color: white;
+  font-weight: 900; }
 
-#city {
-  font-size: 3em;
+.weather {
+  background: rgba(20, 158, 240, 0.5);
+  color: #fff;
+  margin: 0;
+  padding: 0;
   text-align: center;
-  list-style-type: none; }
+  width: 100%;
+  float: left;
+  height: 600px; }
 
-.icon img {
-  width: 150px; }
+.weatherDate {
+  margin-bottom: 50px; }
+
+#day {
+  text-align: center; }
+
+#month {
+  text-align: center; }
+
+.hilo {
+  display: inline-block;
+  padding: 0 20px;
+  vertical-align: top;
+  margin-left: 70px;
+  margin-bottom: 40px; }
+
+#current {
+  display: inline-block;
+  font-size: 2.5em;
+  font-weight: 800;
+  margin: 0;
+  padding: 0 20px; }
+
+#condition {
+  font-size: 2em;
+  font-weight: 800;
+  margin: 0;
+  padding: 0 20px; }
+
+#weatherTable {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 35%;
+  background-color: white; }
+  #weatherTable td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center; }
+
+.background {
+  height: 600px;
+  background-image: url("https://static.pexels.com/photos/102617/pexels-photo-102617.jpeg");
+  background-size: 100% 100vh;
+  background-repeat: no-repeat; }
 
 .pics {
   width: 100%;
