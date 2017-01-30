@@ -103,7 +103,7 @@ nav
     display: inline
     padding: 50px
     text-align: center    
-    font-size: 1.5em
+    font-size: 1.4em
     z-index: 2
     
     a
@@ -115,12 +115,10 @@ nav
       
 h1
   font-size: 5em
-  text-align: center
-  font-family: 'Open Sans', sans-serif
+  text-align: center 
   margin-top: 0
   
 h1.title
-  font-family: 'Open Sans', sans-serif
   color: white
   position: absolute
   top: 30%
@@ -272,6 +270,7 @@ caption
   
 .weatherDate
   margin-bottom: 50px
+  font-size: 2.5em
 
 #day
   text-align: center
@@ -285,7 +284,7 @@ caption
   vertical-align: top
   margin-left: 70px
   margin-bottom: 40px
-
+  font-size: 1.5em
 
 #current
   display: inline-block
@@ -295,7 +294,7 @@ caption
   padding: 0 20px
   
 #condition
-  font-size: 2em
+  font-size: 2.5em
   font-weight: 800
   margin: 0
   padding: 0 20px
@@ -323,7 +322,7 @@ caption
 //Attractions site
 .pics
   width: 100%
-  height: 800px 
+  height: 100vh
 
 
 .attr1 
@@ -479,8 +478,124 @@ span.textLeft
   font-size: 1.2em
   text-align: center
 
+//about section
+
+.about
+  padding: 0 170px 10px 170px
+  
+.part1
+  height: 90vh
+  margin-bottom: 30px
+
+.part2
+  height: 90vh
+  margin-bottom: 30px
+  
+.part3
+  height: 90vh
+  
+.part1pic
+  float: right
+  width: 50%
+  height: 500px
+  
+.part1text
+  float: left
+  width: 45%
+  text-align: center
+  font-size: 1.4em
+  font-family: 'Open Sans', sans-serif
+  font-style: italic
+  
+.part2pic
+  height: 450px
+  width: 50%
+  float: left
+
+.part2text
+  float: right
+  width: 40%
+  text-align: center
+  font-size: 1.4em
+  font-family: 'Open Sans', sans-serif
+  font-style: italic
+  
+.part3pic
+  height: 500px
+  width: 45%
+  float: right
+  
+.part32pic
+  height: 350px
+  width: 50%
+  float: left
+  margin-top: 50px
+  
+.part3text
+  float: left
+  width: 50%
+  text-align: center
+  font-size: 1.4em
+  font-family: 'Open Sans', sans-serif
+  font-style: italic
+  
+  
+.aboutheader
+  margin-bottom: 50px
+  font-size: 4em
+  text-align: center
+  text-decoration: underline
+  font-family: 'Open Sans', sans-serif
+
+
+
   
 //Media Query
+@media screen and (max-width: 1100px)
+  .about
+    padding: 0 50px 10px 50px
+    
+  .aboutheader
+    font-size: 3em
+  
+  .part1text
+    width: 100%
+    display: block
+    margin-bottom: 30px
+    font-size: 1.2em
+    
+  .part1pic
+    width: 100%
+    display: block
+    
+  .part2text
+    width: 100%
+    display: block
+    margin-top: 30px
+    font-size: 1.2em
+    
+  .part2pic
+    width: 100%
+    display: block
+    
+  .part3text
+    width: 100%
+    display: block
+    margin-bottom: 30px
+    font-size: 1.2em
+    
+  .part3pic
+    width: 100%
+    display: block
+    
+  .part32pic
+    width: 100%
+    display: none
+    
+  .part3
+    margin-top: 100px
+
+
 @media screen and (max-width: 1000px)
   h2
     font-size: 2em
@@ -528,14 +643,10 @@ span.textLeft
     display: block
     max-width: 90%
     text-align: center
-
- 
   
   #menubtn
     font-size: 2em
 
-  .dark
-    height: 800px
 
   h1.title
     top: 10%
@@ -545,9 +656,6 @@ span.textLeft
   #cat1, #cat2, #cat3, #cat4
     display: block
     max-width: 100%
-  
-  .dark
-    height: 450px
     
   h1.title
     font-size: 3.5em
@@ -567,9 +675,6 @@ span.textLeft
   .icon img
     display: none
   
-  .hero 
-    .pics
-      height: 450px
 
   h2
     font-size: 2em
@@ -585,5 +690,29 @@ span.textLeft
 
   .moreInfo, td
     font-size: 1em
-    
-    
+
+  .hilo
+    margin-top: 20px
+    text-align: center
+
+  .part1pic
+    height: 300px
+  
+  .part2pic
+    height: 300px
+
+  .part3pic
+    height: 300px
+
+  .part1text
+    font-size: 1em
+
+  .part2text
+    font-size: 1em
+
+  .part3text
+    font-size: 1em
+
+  .aboutheader
+    margin-top: 50px
+
