@@ -165,7 +165,7 @@ h3 {
 .bottomnav {
   text-align: center;
   list-style-type: none;
-  margin: 0; }
+  margin-bottom: 50px; }
   .bottomnav li {
     font-color: black;
     font-size: 1.5em; }
@@ -176,8 +176,10 @@ h3 {
     color: orange; }
 
 footer {
-  padding: 2% 2% 2% 2%;
-  background-color: #F2F2F2; }
+  background-image: url("../chimage/skyline.jpg");
+  background-size: 100% 50vh;
+  background-repeat: no-repeat;
+  height: 50vh; }
 
 .foot {
   padding: 2% 2% 2% 2%;
@@ -224,11 +226,6 @@ footer {
 .bottomicon:hover {
   cursor: pointer;
   color: midnightblue; }
-
-caption {
-  font-size: 2em;
-  color: white;
-  font-weight: 900; }
 
 .weather {
   background: rgba(20, 158, 240, 0.5);
@@ -431,15 +428,22 @@ span.textLeft {
   text-align: center; }
 
 .about {
-  padding: 0 170px 10px 170px; }
+  padding: 0 200px 10px 200px;
+  background-image: url("../chimage/backimage.jpg");
+  background-size: 100% 90vh;
+  background-repeat: no-repeat; }
 
 .part1 {
   height: 90vh;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  margin-top: 50px; }
 
 .part2 {
   height: 90vh;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  background-image: url("../chimage/backimage2.jpg");
+  background-size: 100% 90vh;
+  background-repeat: no-repeat; }
 
 .part3 {
   height: 90vh; }
@@ -447,28 +451,30 @@ span.textLeft {
 .part1pic {
   float: right;
   width: 50%;
-  height: 500px; }
+  height: 500px;
+  border-radius: 100px; }
 
 .part1text {
   float: left;
   width: 45%;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-family: "Open Sans", sans-serif;
-  font-style: italic; }
+  padding: 100px 0; }
 
 .part2pic {
   height: 450px;
   width: 50%;
-  float: left; }
+  float: left;
+  border-radius: 100px; }
 
 .part2text {
   float: right;
   width: 40%;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-family: "Open Sans", sans-serif;
-  font-style: italic; }
+  padding: 70px 0; }
 
 .part3pic {
   height: 500px;
@@ -485,9 +491,8 @@ span.textLeft {
   float: left;
   width: 50%;
   text-align: center;
-  font-size: 1.4em;
-  font-family: "Open Sans", sans-serif;
-  font-style: italic; }
+  font-size: 1.2em;
+  font-family: "Open Sans", sans-serif; }
 
 .aboutheader {
   margin-bottom: 50px;
@@ -588,14 +593,14 @@ span.textLeft {
 
   h1.title {
     top: 10%; } }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
   #cat1, #cat2, #cat3, #cat4 {
     display: block;
     max-width: 100%; }
 
   h1.title {
     font-size: 3.5em;
-    top: 15%; }
+    top: 30%; }
 
   #menubtn {
     display: block;
@@ -628,7 +633,8 @@ span.textLeft {
 
   .hilo {
     margin-top: 20px;
-    text-align: center; }
+    text-align: center;
+    margin-right: 20%; }
 
   .part1pic {
     height: 300px; }
@@ -649,6 +655,15 @@ span.textLeft {
     font-size: 1em; }
 
   .aboutheader {
-    margin-top: 50px; } }
+    margin-top: 50px; }
+
+  .caption {
+    margin-right: 15%; }
+
+  .about {
+    padding: 0; }
+
+  .part1 {
+    margin-top: 0; } }
 
 /*# sourceMappingURL=chicago.css.map */
