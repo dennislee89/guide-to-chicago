@@ -1,4 +1,3 @@
-@import url("http://weloveiconfonts.com/api/?family=entypo");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 /* entypo */
 [class*="entypo-"]:before {
@@ -175,114 +174,83 @@ h3 {
   .bottomnav a:hover {
     color: orange; }
 
-footer {
-  background-image: url("../chimage/skyline.jpg");
-  background-size: 100% 50vh;
-  background-repeat: no-repeat;
-  height: 50vh; }
+ul {
+  list-style: none; }
 
-.foot {
-  padding: 2% 2% 2% 2%;
-  background-color: #2D8AA8; }
+a {
+  text-decoration: none; }
 
-.bottom {
-  margin-top: 2%;
-  text-align: center; }
-
-.bottomnav li a {
-  color: #B7695C; }
-
-.bottomnavHome li a {
+.footer-link {
   color: white; }
+  .footer-link:hover {
+    color: lightblue; }
 
-.bottomnavHome {
-  text-align: center;
-  list-style-type: none;
-  margin: 0; }
-  .bottomnavHome li {
-    font-color: black;
-    font-size: 1.5em; }
-  .bottomnavHome a {
-    color: white;
-    text-decoration: none; }
-  .bottomnavHome a:hover {
-    color: orange; }
+.flex-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap; }
 
-.bottomicon {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  margin: 0 10px;
-  line-height: 75px;
-  font-family: Entypo;
-  font-size: 4em;
-  text-align: center;
-  color: #bbb;
-  border-radius: 70%;
-  background: white;
-  overflow: hidden;
-  transition: color 0.3s; }
-
-.bottomicon:hover {
-  cursor: pointer;
-  color: midnightblue; }
-
-.weather {
-  background: rgba(20, 158, 240, 0.5);
-  color: #fff;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+footer {
+  /*background: #373737 */
+  background-image: url("../chimage/footer.jpg");
+  margin-top: auto;
   width: 100%;
-  float: left;
-  height: 600px; }
+  background-repeat: no-repeat;
+  height: 60vh; }
 
-.weatherDate {
-  margin-bottom: 50px;
-  font-size: 2.5em; }
+.footer-options {
+  width: 100%; }
+  .footer-options > li {
+    text-align: center;
+    padding-bottom: 10px; }
 
-#day {
-  text-align: center; }
+.footer-header {
+  padding: 10px 0 0px 0;
+  color: white;
+  font-size: 2em; }
 
-#month {
-  text-align: center; }
+.footer-social {
+  width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 15px; }
 
-.hilo {
-  display: inline-block;
-  padding: 0 20px;
-  vertical-align: top;
-  margin-left: 70px;
-  margin-bottom: 40px;
-  font-size: 1.5em; }
-
-#current {
-  display: inline-block;
-  font-size: 2.5em;
-  font-weight: 800;
-  margin: 0;
+.footer-social-overlap {
+  position: relative;
+  z-index: 2;
   padding: 0 20px; }
 
-#condition {
-  font-size: 2.5em;
-  font-weight: 800;
-  margin: 0;
-  padding: 0 20px; }
+.footer-connect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font: 1em "Oswald", sans-serif;
+  color: #fff; }
 
-#weatherTable {
-  border: 1px solid black;
-  margin: 0 auto;
-  width: 35%;
-  background-color: white; }
-  #weatherTable td {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    text-align: center; }
+.footer-social-overlap > a {
+  font-size: 3.5em; }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 0.38em; }
 
-.background {
-  height: 600px;
-  background-image: url("https://static.pexels.com/photos/102617/pexels-photo-102617.jpeg");
-  background-size: 100% 100vh;
-  background-repeat: no-repeat; }
+.footer-bottom-section {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px; }
+  .footer-bottom-section > div:first-child {
+    margin-right: auto; }
+
+.footer-bottom {
+  font-size: 1.5em;
+  color: #fff; }
 
 .pics {
   width: 100%;
@@ -436,17 +404,26 @@ span.textLeft {
 .part1 {
   height: 90vh;
   margin-bottom: 30px;
-  margin-top: 50px; }
+  margin-top: 50px;
+  background-image: url("../chimage/backimage.jpg");
+  background-size: 100% 90vh;
+  background-repeat: no-repeat; }
 
 .part2 {
   height: 90vh;
   margin-bottom: 30px;
-  background-image: url("../chimage/backimage2.jpg");
+  margin-top: 50px;
+  background-image: url("../chimage/backimage.jpg");
   background-size: 100% 90vh;
   background-repeat: no-repeat; }
 
 .part3 {
-  height: 90vh; }
+  height: 90vh;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  background-image: url("../chimage/backimage.jpg");
+  background-size: 100% 90vh;
+  background-repeat: no-repeat; }
 
 .part1pic {
   float: right;
@@ -463,36 +440,32 @@ span.textLeft {
   padding: 100px 0; }
 
 .part2pic {
-  height: 450px;
-  width: 50%;
   float: left;
+  width: 50%;
+  height: 500px;
   border-radius: 100px; }
 
 .part2text {
   float: right;
-  width: 40%;
+  width: 45%;
   text-align: center;
   font-size: 1.2em;
   font-family: "Open Sans", sans-serif;
-  padding: 70px 0; }
+  padding: 100px 0; }
 
 .part3pic {
-  height: 500px;
-  width: 45%;
-  float: right; }
-
-.part32pic {
-  height: 350px;
+  float: right;
   width: 50%;
-  float: left;
-  margin-top: 50px; }
+  height: 500px;
+  border-radius: 100px; }
 
 .part3text {
   float: left;
   width: 50%;
   text-align: center;
   font-size: 1.2em;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  padding: 100px 0; }
 
 .aboutheader {
   margin-bottom: 50px;
@@ -521,7 +494,7 @@ span.textLeft {
   .part2text {
     width: 100%;
     display: block;
-    margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 1.2em; }
 
   .part2pic {
@@ -537,10 +510,6 @@ span.textLeft {
   .part3pic {
     width: 100%;
     display: block; }
-
-  .part32pic {
-    width: 100%;
-    display: none; }
 
   .part3 {
     margin-top: 100px; } }
@@ -664,6 +633,12 @@ span.textLeft {
     padding: 0; }
 
   .part1 {
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .footer-social-overlap > a {
+    display: none; }
+
+  footer {
+    height: 40vh; } }
 
 /*# sourceMappingURL=chicago.css.map */
